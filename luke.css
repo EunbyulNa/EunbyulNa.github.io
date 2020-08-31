@@ -1,0 +1,555 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+
+.aside_wraps {
+  background-color: white;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left:0;
+  overflow-x: hidden;
+}
+
+.aside_head {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 10px;
+
+}
+.aside_head img {
+  border-radius: 5px;
+  width: 130px;
+  height: 100px;
+ margin-bottom: 10px;
+}
+
+.aside_menu {
+  margin-top: 20px;
+}
+
+.aside_menu li {
+  padding: 20px 10px 10px 10px;
+  overflow: hidden;
+
+}
+
+.aside_menu li:hover{
+background-color: gray;
+cursor: pointer;
+
+}
+
+.aside_menu img {
+
+  width: 20px;
+  float: left;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+
+
+/*main-wraps*/
+.main_wraps {
+
+  margin-left: 300px;
+}
+
+.main_head {
+  padding: 30px 0 0 20px;
+
+}
+
+#all_btn {
+  background-color: black;
+  color: white;
+}
+
+.main_head h1 {
+  margin-bottom: 30px;
+}
+
+.main_icons h4 {
+  display: inline;
+}
+
+.main_icons button {
+  background-color:white;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  font-size: 19px;
+}
+
+.main_icons button img {
+  width: 15px;
+  margin-right: 10px;
+}
+
+.main_icons button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.media_head {
+  display: none;
+}
+
+/*Main_gallery*/
+.main_gallery {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery_wraps {
+  background-color: white;
+  width: 31%;
+  max-width: 31%;
+
+}
+
+.wraps2 {
+  margin-top: 10px;
+}
+
+.gallery_wraps img {
+  max-width: 100%;
+}
+
+.gallery_wraps img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.gallery_wraps p {
+  padding: 10px;
+}
+
+/*buttons*/
+.buttons_wraps {
+  padding: 50px 30px 50px 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttons a {
+   box-sizing: content-box;
+  padding: 10px 17px 10px 17px;
+  margin: 0;
+}
+
+#next {
+  padding: 10px 11px 10px 11px;
+}
+
+#btn_1 {
+  background-color: black;
+  color:white;
+}
+
+.buttons a:hover {
+  background-color: black;
+  color: white;
+}
+
+/*Aboutme*/
+
+.aboutme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+.aboutme img{
+width: 48%;
+max-width: 48%;
+
+}
+
+.aboutme_text {
+  margin: 40px 20px 30px 20px;
+
+}
+
+.aboutme_text h3 {
+  margin-bottom: 10px;
+}
+
+/*skill bars*/
+.skillbars {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.skillbars h3 {
+  margin-bottom: 10px;
+}
+
+.skillbars p {
+  margin-bottom: 10px;
+}
+.bar_container {
+  width: 100%;
+  background-color: #a6a6a6;
+  margin-bottom: 15px;
+}
+
+.bar {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #737373;
+}
+
+.photo {
+  width: 95%;
+}
+
+.design {
+  width: 80%;
+}
+
+.korean {
+  width: 65%;
+}
+
+.download_btn button {
+  margin-top: 20px;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  background-color: #737373;
+  color: white;
+}
+
+.download_btn button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.download_btn img {
+  width: 15px;
+ padding-right: 5px;
+
+}
+
+
+/*How much I charge*/
+.price_wraps {
+  margin-top: 30px;
+
+
+}
+
+.price_wraps h3 {
+  padding: 10px;
+  margin-left: 10px;
+}
+.price_box{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.price {
+  border: 1px solid black;
+  width: 30%;
+  max-width: 30%;
+  opacity: 0.7;
+}
+
+.price:hover {
+  opacity: 1;
+}
+
+.price h2 {
+  text-align:center;
+  padding: 35px;
+  background: black;
+  color: white;
+}
+
+.pro h2 {
+  background: #1a8cff;
+}
+
+.price_text {
+  background-color: white;
+}
+
+#price_btn {
+  background-color: #f2f2f2;
+}
+
+.price_text p {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.price_text span {
+  font-size: 35px;
+  font-weight: bold;
+  display: block;
+}
+
+
+.price button {
+  border: none;
+  padding: 15px 25px 15px 25px;
+  background-color: #1a8cff;
+color: white;
+}
+
+.price button:hover {
+  cursor: pointer;
+  background-color: black;
+
+}
+
+/*Contact Me*/
+.contact_wraps {
+  margin-top: 60px;
+  background-color: gray;
+}
+
+.contact_wraps h3 {
+    padding: 10px;
+    margin-left: 10px;
+
+}
+.contact_box{
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact_box img {
+  margin-bottom: 10px;
+}
+
+.contact {
+  padding: 10px;
+  text-align: center;
+  background-color:white;
+  width: 30%;
+  max-width: 30%;
+}
+
+.london {
+  background-color: #1a8cff;
+}
+
+/*Contact form*/
+.contact_form {
+
+  padding: 10px;
+}
+
+.contact_form form {
+  border-top: 1px solid white;
+  padding-top: 30px;
+}
+.contact_form input {
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.contact_form button {
+  padding: 10px 25px 10px 25px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.contact_form button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+
+/*footer*/
+.footer_wraps {
+
+  background-color: #404040;
+}
+
+.footer_box {
+
+margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footers {
+  margin-top: 30px;
+  J
+  color: white;
+  width: 30%;
+  max-width: 30%;
+}
+
+.blog_posts ul {
+  border-bottom: 1px solid white;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+
+.two ul {
+  border-bottom: none;
+}
+.blog_posts ul:hover {
+  background-color: white;
+  color: black;
+}
+
+.blog_posts img{
+  float: left;
+  width: 50px;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+
+
+.tags span {
+  display: inline-block;
+  background-color: white;
+  color:black;
+
+  padding: 2px 5px 2px 5px;
+    margin: 5px 3px 5px 0;
+}
+
+.footer_end {
+
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.footer_end p {
+  display: inline-block;
+  padding-top: 30px;
+}
+
+
+/*media query*/
+@media (max-width:990px)  {
+  .aside_wraps {
+    display: none;
+  }
+
+  .main_wraps {
+    width: 100%;
+    margin: 0;
+  }
+
+  .media_head {
+    display:flex;
+    justify-content:space-between;
+    text-align: left;
+
+  }
+
+.media_head h1{
+ display: inline-block;
+ margin: 30px 0 0 10px;
+}
+.media_head img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+
+
+
+}
+
+@media (max-width:600px){
+  #photo_btn {
+    display: none;
+
+  }
+
+  #art_btn {
+    display: none;
+
+  }
+
+  .gallery_wraps {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .wrap_last {
+    margin-bottom:0;
+  }
+
+ .aboutme {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.aboutme img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+.price {
+   margin: 10px;
+    border: 1px solid black;
+    width: 100%;
+    max-width: 100%;
+    opacity: 0.7;
+  }
+
+  .contact {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .footers {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
